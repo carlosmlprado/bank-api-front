@@ -15,7 +15,6 @@ export class AppComponent {
   constructor(private service: AppService){}
 
   createAccount(){
-    console.log('Aconteceu')
   }
 
   getCustomerBankAccounts(customerId:String) {
